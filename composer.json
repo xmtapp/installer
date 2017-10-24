@@ -1,0 +1,25 @@
+{
+    "name": "xmtapp/installer",
+    "description": "xmtapp-installer",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.1"
+    },
+    "license": "Apache License",
+    "autoload": {
+        "psr-4": {
+            "XmtApp\\Installer\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "DongYao",
+        "email": "dong_yao_cn@163.com"
+    }],
+    "extra": {
+        "class": "XmtApp\\Installer\\ComposerInstallerPlugin"
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "composer/composer": "^1.6@dev"
+    }
+}
