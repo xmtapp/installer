@@ -2,6 +2,7 @@
 
 namespace XmtApp\Installer\Installers;
 
+use Composer\Composer;
 use Composer\Installer\LibraryInstaller;
 use Composer\Package\PackageInterface;
 /**
