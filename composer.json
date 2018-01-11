@@ -3,7 +3,7 @@
     "description": "xmtapp-installer",
     "type": "composer-plugin",
     "require": {
-        "composer-plugin-api": "^1.1"
+        "composer-plugin-api": "^1.0"
     },
     "license": "Apache License",
     "autoload": {
